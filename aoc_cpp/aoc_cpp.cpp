@@ -1,11 +1,14 @@
 // aoc_cpp.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "Header.h"
+#include "Day4.h"
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+    std::cout << "Hello World!\n";
+	Day4 day4 = Day4();
+	day4.process("bgvyzdsv");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
